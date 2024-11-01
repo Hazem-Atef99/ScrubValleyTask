@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.upgrade-screen{
+  width: 83vw;
+}
+.upgrade-screen .plan{
+  color: #49BB94;
+
+}
+.upgrade-screen .title{
+margin-top: 2vh;
+}
+.div-plan{
+  margin-top: 1vh;
+}
+.plan-duarations{
+display: flex;
+justify-content: center;
+margin:2vh 0;
+}
+.plan-types{
+  justify-content: space-between;
+}
