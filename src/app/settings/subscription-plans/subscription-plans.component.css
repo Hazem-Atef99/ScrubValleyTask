@@ -1,3 +1,13 @@
 .sub{
-  width:150%
+  width:150%;
+  margin-top: 20px;
+
+}
+.profile{
+  height: 652px;
+  margin-right: 20px;
+}
+.sub-data{
+  width: 870px;
+  height: 416px;
 }

@@ -1,26 +1,74 @@
+<div class="page">
 <div class="subscription-details">
-  <h3>Subscription Data</h3>
+  <h3>Subscription data</h3>
   <p>View and upgrade your subscription</p>
   <table>
     <tr>
-      <td>Subscription Type</td>
-      <td>Premium</td>
+      <td class="key">Subscription Type</td>
+      <td class="value">Premium</td>
     </tr>
     <tr>
-      <td>Renewal Date</td>
-      <td>06/09/2024</td>
+      <td class="key">Renewal Date</td>
+      <td class="value">06/09/2024</td>
     </tr>
     <tr>
-      <td>Account</td>
-      <td>Personname&#64;company.com</td>
+      <td class="key">Account</td>
+      <td class="value">Personname&#64;company.com</td>
     </tr>
     <tr>
-      <td>Card Info</td>
-      <td>Ends with 56</td>
+      <td class="key">Card Info</td>
+      <td class="value">Ends with 56</td>
     </tr>
   </table>
   <div class="buttons">
     <button class="renew">Renewal Subscription</button>
     <button (click)="click()"routerLinkActive="active" routerLink="/upgrade" class="upgrade"><img src="assets/images/Search results for Crown - Flaticon-12 1.png">Upgrade Subscription</button>
   </div>
+</div>
+<table class="custom-table">
+  <thead>
+    <tr class="title">
+      <th colspan="5">Transaction history</th>
+    </tr>
+  </thead>
+  <thead>
+    <tr class="head">
+      <th>#</th>
+      <th>Plan name</th>
+      <th>Date</th>
+      <th>Amount</th>
+      <th>Invoice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="body">
+      <td>1</td>
+      <td>Premium</td>
+      <td>13-09-2024</td>
+      <td>150 sr</td>
+      <td class="down">Download</td>
+    </tr>
+    <tr class="body">
+      <td>2</td>
+      <td>Premium</td>
+      <td>13-09-2024</td>
+      <td>150 sr</td>
+      <td class="down">Download</td>
+    </tr>
+    <tr class="body">
+      <td>3</td>
+      <td>Premium</td>
+      <td>13-09-2024</td>
+      <td>150 sr</td>
+      <td class="down">Download</td>
+    </tr>
+    <tr class="body">
+      <td>4</td>
+      <td>Premium</td>
+      <td>13-09-2024</td>
+      <td>150 sr</td>
+      <td class="down">Download</td>
+    </tr>
+  </tbody>
+</table>
 </div>
