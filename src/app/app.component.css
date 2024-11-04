@@ -47,10 +47,11 @@ hr{
   top: 16px;
 }
 .arrow img{
-  width: 20px;
-    height: 20px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  box-shadow: 0 0 10px gray;
 }
 .sidebar li{
   margin-bottom: 0.5rem;
@@ -92,9 +93,10 @@ hr{
 }
 .menu-item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  color: #B0BEC5; /* Adjust this color as needed */
+  padding: 10px 10px;
+  color: #CBD5E1; /* Adjust this color as needed */
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -116,7 +118,9 @@ hr{
   font-size: 18px;
   font-weight: 500;
 }
+.menu-item img:nth-child(2){
 
+}
 .menu-arrow {
   font-size: 18px;
   margin-left: auto;
@@ -137,6 +141,7 @@ header {
   margin-bottom: 20px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
   height: 90px;
+  padding-left: 2rem;
 
 }
 

@@ -1,9 +1,8 @@
 .subscription-details {
   flex: 1;
-  background: #f9f9f9;
+  background: #F8FAFC;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #ddd;
 }
 
 .subscription-details h3 {
@@ -44,9 +43,9 @@ color: #475569;
 }
 .subscription-details table tr{
   width: 201px;
-  height:42px;
+  height:60px;
   padding: 12.5px 12px 12.5px 12px;
-  gap: 10px;
+  gap: 16px;
   opacity: 0px;
 
 
@@ -70,12 +69,12 @@ color: #475569;
 }
 
 .renew {
-  background-color: #4CAF50;
+  background-color: #49BB94;
   color: #fff;
 }
 
 .upgrade {
-  background-color: #0056b3;
+  background-color: #0D72B9;
   color: #fff;
   display: flex;
     align-items: center;
@@ -94,15 +93,21 @@ color: #475569;
 }
 .custom-table {
   width: 100%;
-  border-radius: 8px;
-  border: 1px solid #dee2e6;
   margin-top: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
 }
 
 .custom-table th, .custom-table td {
   padding: 12px;
-  border: 1px solid #dee2e6;
+  border: 1px solid #E2E8F0;
   text-align: left;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.custom-table .title th{
+  border:0;
 }
 .custom-table .title{
   background-color: #F1F5F9;
@@ -114,7 +119,7 @@ font-weight: 600;
 line-height: 19.5px;
 color: #0F172A;
 }
-.custom-table .head{
+.custom-table .head th{
 font-size: 16px;
 font-weight: 500;
 line-height: 19.5px;
@@ -122,7 +127,7 @@ color: #0F172A;
 }
 .custom-table .body{
 font-size: 16px;
-font-weight: 500;
+font-weight: 400;
 line-height: 19.5px;
 color: #475569;
 
@@ -130,4 +135,5 @@ color: #475569;
 .custom-table .body .down{
   color: #0CB450;
   cursor: pointer;
+
 }
